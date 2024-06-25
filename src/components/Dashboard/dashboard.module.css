@@ -1,0 +1,60 @@
+.reportsContainer{
+    background-color: white;
+    padding: 1em;
+}
+.reportsTable{
+    border: 1px solid;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.icon{
+    font-size: 1.15em;
+}
+
+.approvedIcon{
+    color: #1b5e25;
+}
+
+.rejectedIcon{
+    color: #DC3545;
+}
+
+.processingIcon{
+    color: #FFC107;
+}
+
+.readyIcon{
+    color: #007BFF;
+}
+
+.acceptedIcon{
+    color: #28A745;
+}
+
+.cancelledIcon{
+    color: #ca786a;
+}
+
+.lowRiskIcon{
+    color: lightgreen;
+}
+
+.mediumRiskIcon{
+    color: orange;
+}
+
+.highRiskIcon{
+    color: red;
+}
+
+.subText {
+    color: grey;
+    font-size: 0.9em;
+}
+
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
